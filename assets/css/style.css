@@ -228,6 +228,25 @@ p {
 }
 
 /*==========================================
+COURCES SECTION
+============================================*/
+
+.cources ul {
+    list-style: none;
+    margin: 10;
+    background: #eee;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.cources ul li {
+    border-bottom: solid 1px #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*==========================================
    SOCIAL ICON STYLES
     =====================================================*/
 
