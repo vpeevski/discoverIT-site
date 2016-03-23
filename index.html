@@ -15,7 +15,7 @@
 
 						<script src="assets/js/jquery.js"></script>
 						<!-- CORE BOOTSTRAP LIBRARY -->
-						<script src="assets/js/bootstrap.min.js"></script>
+						<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 						<!-- SCROLL REVEL LIBRARY FOR SCROLLING ANIMATIONS-->
 						<script src="assets/js/scrollReveal.js"></script>
 						<!-- CUSTOM SCRIPT-->
@@ -23,7 +23,7 @@
 
 						<script>
 							$(document).ready(function() {
-							$(".btn-lg").click(function() {
+							$("#java1plan").click(function() {
 							$("#panel").slideToggle("slow");
 							});
 							});
@@ -37,7 +37,7 @@
 						<link href='http://fonts.googleapis.com/css?family=Open+Sans'
 								rel='stylesheet' type='text/css'>
 							<!--BOOTSTRAP MAIN STYLES -->
-							<link href="assets/css/bootstrap.css" rel="stylesheet" />
+							<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 							<!--FONTAWESOME MAIN STYLE -->
 							<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
 							<!--CUSTOM STYLE -->
@@ -387,8 +387,11 @@
 																			class="fa fa-check"></i> Съботно-неделен: Събота и Неделя от 9
 																	до 13<br />
 																</p>
-																
-																<a class="btn btn-success btn-lg"> Програма на курса</a>
+
+																<a id="java1plan" class="btn btn-info btn-lg">
+																	<span class="glyphicon glyphicon-menu-down"></span> Програма на курса
+																</a>
+
 																<div id="panel" class="cources" style="display: none">
 																	<ul>
 
@@ -432,11 +435,11 @@
 																				методи - equals, hashcode, toString ... . </strong></li>
 
 																	</ul>
-															</div>
+																</div>
 
-															
-																
-																
+
+
+
 
 
 
