@@ -24,5 +24,6 @@ public class Discoverita {
 		assertEquals("КУРСОВЕ", courseText);
 		WebElement contactButton1 = BrowserFirefox.driver.findElement(By.xpath("//div[@class='nav-bar-main']//a[@href='contact.php']"));
 		contactButton1.click();
+		
 	}
 }
